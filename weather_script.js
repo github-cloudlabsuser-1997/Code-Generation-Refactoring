@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 async function getWeatherByLocation(city) {
-    const apiKey = '1e97fe13f9ec69d26e055401f5e053bf'; // Replace with your API key
+    const apiKey = '33600db7735d1793de04477be6bcde90'; // Replace with your API key
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     try {
